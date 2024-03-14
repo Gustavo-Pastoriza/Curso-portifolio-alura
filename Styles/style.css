@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+:root {
+    --cor1: #000000;
+    --cor2: #F6F6F6;
+    --cor3: #22D4FD;
+    --cor4: #272727;
+
+    --font1: 'Krona One', sans-serif;
+    --font2: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor1);
+    color: var(--cor2);
+    box-sizing: border-box;
+ 
+}
+
+
+.pai {
+    padding: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.titulo {
+    color: var(--cor3);
+}
+
+.conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.conteudo2 {
+    font-size: 2.25rem;
+    font-family: var(--font1);
+}
+
+.conteudo3 {
+    font-size: 1.5rem;
+    font-family: var(--font2);
+}
+
+.cabeca {
+    font-family: var(--font1);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link {
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    border: 2px solid var(--cor3);
+    width: 50%;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color:var(--cor2);
+    font-family: var(--font2);
+    font-weight: 600;
+}
+
+.pudim {
+    height: 33px;
+    width: 32px;
+}
+
+.link:hover {
+    background-color: var(--cor4);
+}
+
+.img {
+    width: 50%;
+}
+.pe {
+    text-align: center;
+    color: var(--cor1); 
+    background-color: var(--cor3);
+    padding: 1.5rem;
+    font-family: var(--font2);
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+
+.cabe {
+    padding: 2% 8% 0%;
+    font-family: var(--font2);
+    font-size: 1.5rem;
+    font-weight: 600;  
+}
+
+.cabec {
+    display: flex;      
+}
+
+.cabecao {
+    margin: 0% 15% 0% 0%;
+    text-decoration: none;
+    color: var(--cor3);
+}
+
+.cabecao:hover {
+    background-color: var(--cor4);
+}
+
+@media (max-width: 1200px) {
+    .pai {
+        flex-direction: column-reverse;
+        padding: 3%;
+    }
+
+    .conteudo {
+        width: auto;
+    }
+
+    .cabec {
+        padding: 10%;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+   
